@@ -8,7 +8,7 @@ asgiref = "==3.5.2"
 django = "~=4.1.0"
 sqlparse = "==0.4.2"
 pillow = "==9.2.0"
-flower = "==1.2.0"
+flower = "==1.1.0"
 celery = "==5.2.7"
 
 [dev-packages]
