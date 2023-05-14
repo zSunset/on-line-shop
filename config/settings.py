@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "shop.apps.ShopConfig",
     "cart.apps.CartConfig",
     "orders.apps.OrdersConfig",
+    "payment.apps.PaymentConfig"
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,10 @@ MEDIA_ROOT = BASE_DIR / 'media'
 CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51N6ZP2By4vAXu767owwUVglJuLjSeqPO5kZCNg9q4rl7s7rsXc0fM8PK0yIySvF10WR5YgWJYo3rd3FJDgfjvG1600FwsRrfNh'  # Публикуемый ключ
+STRIPE_SECRET_KEY = 'sk_test_51N6ZP2By4vAXu767i91nClJAzW6asLpaEUzLndsFmUzSHbWPnzrsejAIyTvXPpjfEut1XiAKzjmTawzIvzHK74si00WWmK6Vx7'  # Секретный ключ
+STRIPE_WEBHOOK_SECRET = 'whsec_df7b1d0de878207c111afc067408760f51da503fb74cfae734b10746c1f4df4a'
+STRIPE_API_VERSION = '2022-08-01'
+
+STATIC_ROOT = BASE_DIR / 'static'
