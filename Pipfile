@@ -12,6 +12,8 @@ flower = "==1.1.0"
 celery = "==5.2.7"
 stripe = "==4.0.2"
 weasyprint = "==56.1"
+easy-thumbnails = "*"
+redis = "==4.3.4"
 
 [dev-packages]
 
