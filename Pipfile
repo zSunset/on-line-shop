@@ -14,6 +14,8 @@ stripe = "==4.0.2"
 weasyprint = "==56.1"
 easy-thumbnails = "*"
 redis = "==4.3.4"
+django-rosetta = "==0.9.8"
+django-parler = "==2.3"
 
 [dev-packages]
 
