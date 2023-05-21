@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "88a68f6ac68cd91075d3f499a31fcf385db1f37163f74003d705d2f4a4cd9457"
+            "sha256": "8e904ea08343050d0bc524b640159007f73da6a18ff73a438d956170cb36522f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -354,6 +354,22 @@
             "index": "pypi",
             "version": "==4.1.9"
         },
+        "django-parler": {
+            "hashes": [
+                "sha256:2c8f5012ceb5e49af93b16ea3fe4d0c83d70b91b2d0f470c05d7d742b6f3083d",
+                "sha256:8f6c8061e4b5690f1ee2d8e5760940ef06bf78a5bfa033d11178377559c749cf"
+            ],
+            "index": "pypi",
+            "version": "==2.3"
+        },
+        "django-rosetta": {
+            "hashes": [
+                "sha256:a5049d47abafeef6a8aba8a0c12103c93fd77a8bd8436b60307fbd5e1cb8d248",
+                "sha256:f8449da6963e77b6e4082bde70f5f3f270eba633e3bdb29d663741f6cd01c3fd"
+            ],
+            "index": "pypi",
+            "version": "==0.9.8"
+        },
         "easy-thumbnails": {
             "hashes": [
                 "sha256:7e4e912609fc9b60b3a1fef6557ec15ddf9c4f946267a92e6920dfd4dd765e35",
@@ -485,6 +501,13 @@
             "index": "pypi",
             "version": "==9.2.0"
         },
+        "polib": {
+            "hashes": [
+                "sha256:1c77ee1b81feb31df9bca258cbc58db1bbb32d10214b173882452c73af06d62d",
+                "sha256:f3ef94aefed6e183e342a8a269ae1fc4742ba193186ad76f175938621dbfc26b"
+            ],
+            "version": "==1.2.0"
+        },
         "prometheus-client": {
             "hashes": [
                 "sha256:0836af6eb2c8f4fed712b2f279f6c0a8bbab29f9f4aa15276b91c7cb0d1616ab",
@@ -544,7 +567,7 @@
                 "sha256:10e94cc4f3121ee6da529d358cdaeaff2f1c409cd377dbc72b825852f2f7e294",
                 "sha256:239d7d4458afcb28a692cdd298d87542235f4ca8d36d03a15bfc128a6559a2f4"
             ],
-            "markers": "python_version >= '3.0'",
+            "markers": "python_version >= '3.7'",
             "version": "==2.30.0"
         },
         "six": {
